@@ -93,7 +93,7 @@ Version|Date|Comments
 
 ## Help
 
-For issues, comments or questions, please reach out to Christophe on twitter ([Path2SharePoint](https://twitter.com/Path2SharePoint/)), github ([PathToSharePoint](https://github.com/PathToSharePoint)), or stackoverflow ([Christophe](https://stackoverflow.com/users/485406/christophe)) with the hashtag #PropertyPanePortal.
+For issues, comments or questions, please reach out to Christophe on twitter ([Path2SharePoint](https://twitter.com/Path2SharePoint/)), github ([PathToSharePoint](https://github.com/PathToSharePoint)), or stackoverflow ([Christophe](https://stackoverflow.com/users/485406/christophe)) with the hashtag #PropertyPaneWrap.
 
 ## Disclaimer
 

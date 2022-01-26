@@ -32,9 +32,9 @@
     "typescript": "~3.9.7"
   },
   "bugs": {
-    "url": "https://github.com/PathToSharePoint/property-pane-portal/issues"
+    "url": "https://github.com/PathToSharePoint/property-pane-wrap/issues"
   },
-  "homepage": "https://github.com/PathToSharePoint/property-pane-portal#readme",
+  "homepage": "https://github.com/PathToSharePoint/property-pane-wrap#readme",
   "directories": {
     "lib": "lib"
   },
