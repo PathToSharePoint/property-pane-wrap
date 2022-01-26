@@ -1,12 +1,12 @@
 {
-  "name": "property-pane-portal",
-  "version": "0.2.1",
-  "description": "Property Pane Portal for SPFx",
+  "name": "property-pane-wrap",
+  "version": "0.1.0",
+  "description": "Property Pane Wrap for SPFx",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PathToSharePoint/property-pane-portal.git"
+    "url": "git+https://github.com/PathToSharePoint/property-pane-wrap.git"
   },
   "scripts": {
     "build": "tsc",
@@ -30,5 +30,13 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "typescript": "~3.9.7"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/PathToSharePoint/property-pane-portal/issues"
+  },
+  "homepage": "https://github.com/PathToSharePoint/property-pane-portal#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {}
 }
