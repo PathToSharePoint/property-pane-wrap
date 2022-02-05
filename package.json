@@ -1,6 +1,6 @@
 {
   "name": "property-pane-wrap",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Property Pane Wrap for SPFx",
   "main": "index.js",
   "types": "index.d.ts",

@@ -16,7 +16,7 @@
 
 ## About the Property Pane Wrap
 
-For its forms, the [SPFx Property Pane](https://reactjs.org/docs/introducing-jsx.html) (PP) relies on a declarative model:
+For its form controls, the [SPFx Property Pane](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/basics/integrate-with-property-pane) (PP) relies on a declarative model:
 
 ```typescript
 groupFields: [
@@ -26,8 +26,9 @@ groupFields: [
   ...
 ```
 
-The package includes:
--	A generic control **PropertyPaneWrap** for use in the Property Pane configuration
+But how would you add to the Property Pane a custom control, not covered by the built-in functions offered by Microsoft? For example a date picker or a dropdown with dynamic choices?
+
+That's where the Property Pane Wrap comes into play. It lets you wrap a React component for insertion in the Property Pane.
 
 ## How to Use the Package
 
@@ -69,15 +70,16 @@ import { PropertyPaneWrap } from 'property-pane-wrap';
                     selectionMode: "single",
                     selectionChanged: onSelectionChanged
                   }
-                }),                ...
+                }),
+                ...
 ```
 
 ## Samples (work in progress)
 
--	PnP SPFx controls: showcase the use of the controls library for both Web Part body and Property Pane.
--	Fluent UI Northstar: showcase reuse of controls directly from the library samples.
--	HTML 5: showcase the use of HTML elements in the Property Pane.
--	MGT: showcase MGT components in the Property Pane.
+-	[React-PPW-MGT](https://github.com/PathToSharePoint/React-PPW-MGT): showcase Microsoft Graph Toolkit components in the SPFx Property Pane.
+-	[React-PPW-FastFluentUI](https://github.com/PathToSharePoint/React-PPW-FastFluentUI): showcase Fluent UI Fast Web components in the SPFx Property Pane.
+-	[React-PPW-PnPControls](https://github.com/PathToSharePoint/React-PPW-PnPControls): showcase the use of the PnP SPFx controls library in the SPFx Property Pane.
+
 
 ## Solution
 
@@ -90,6 +92,7 @@ property-pane-wrap | [Christophe Humbert](https://github.com/PathToSharePoint)
 Version|Date|Comments
 -------|----|--------
 0.1.0|Jan 25, 2022|First release
+0.3.0|Feb 5, 2022|Code Cleanup
 
 ## Help
 
